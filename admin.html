@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Admin Page</title>
+</head>
+
+<body>
+
+    <h1 style="text-align: center;font-family: monospace;">WELCOME TO ADMIN PAGE!!</h1>
+    <div class="container" style="text-align:left;">
+        <div class="row" style="padding-top:30px;">
+            <div class="col-sm ">
+                <button type="button" class="btn btn-primary btn-lg">Open Market</button>
+            </div>
+            <div class="col-sm">
+                <button type="button" class="btn btn-secondary btn-lg">Close Market</button>
+            </div>
+        </div>
+        <div class="row" style="padding:20px;">
+            <div class="col-sm"></div>
+        </div>
+        <div class="row" style="padding:10px;">
+            <div class="col-sm">
+                <form action="/action_page.php">
+                    <input type="date" id="From-date" name="Form-date" placeholder="From">
+                    <input type="date" id="To-date" name="To-date">
+                    <button type="button" class="btn btn-warning btn-sm">Show Orders</button>
+
+                </form>
+            </div>
+            <div class="col-sm"></div>
+        </div>
+    </div>
+    <div class="container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <label for="Execution-QTY">Execution-QTY</label>
+                <input type="number" class="form-control" id="Execution-QTY">
+            </div>
+            <div class="form-group">
+                <label for="Execution-Price">Execution-Price</label>
+                <input type="number" class="form-control" id="Execution-Price">
+            </div>
+        </form>
+        <button type="button" class="btn btn-primary btn-lg">Execute</button>
+    </div>
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
