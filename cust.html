@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <style>
+    * {
+      padding: auto;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin: auto;
+      align-items: center;
+
+    }
+
+    .center {
+      margin: auto;
+      width: 60%;
+      padding: auto;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body style="padding: top 40px;">
+  <div class="center">
+    <h1>ONILNE STOCK EXCUTION</h1>
+    <br>
+    <h2>CUSTOMER PAGE</h2>
+  </div>
+
+
+
+  <br>
+  <div class="center">
+
+    <br>
+    <br>
+    <div>
+      <form action="">
+        <div class="btn-group">
+          <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Select STOCK
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">DBS</a></li>
+            <li><a class="dropdown-item" href="#">JP MORGAN</a></li>
+            <li><a class="dropdown-item" href="#">RELAINCE</a></li>
+            <li><a class="dropdown-item" href="#">APPOLO TYRES</a></li>
+            <li><a class="dropdown-item" href="#">JIO</a></li>
+          </ul>
+        </div>
+        <br>
+        <br>
+        <div class="btn-group">
+          <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            TYPE
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">LIMIT</a></li>
+            <li><a class="dropdown-item" href="#">MARKET</a></li>
+          </ul>
+        </div>
+        <br>
+        <br>
+        <label for="to">QTY</label>
+        <input type="number" id="price" name="price">
+        <br>
+        <br>
+        <label for="to">Price</label>
+        <input type="number" id="price" name="price">
+        <br>
+        <br>
+        <input type="submit" value="Place Orders" class="btn btn-primary">
+      </form>
+    </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
